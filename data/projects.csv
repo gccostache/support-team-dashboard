@@ -1,0 +1,9 @@
+project_id,engineer_id,project,role,milestone,start_date,due_date,completed_date
+P01,E01,Login runbook refresh,Lead,Deliver reviewed draft,2026-07-01,2026-10-15,2026-09-18
+P02,E02,API escalation checklist,Lead,Deliver reviewed draft,2026-07-01,2026-09-20,2026-09-18
+P03,E03,Performance lab,Lead,Deliver reviewed draft,2026-07-01,2026-10-15,
+P04,E04,New engineer onboarding,Lead,Deliver reviewed draft,2026-07-01,2026-09-20,
+P05,E05,Login runbook refresh,Contributor,Deliver reviewed draft,2026-07-01,2026-10-15,2026-09-18
+P06,E06,API escalation checklist,Contributor,Deliver reviewed draft,2026-07-01,2026-09-20,
+P07,E07,Performance lab,Contributor,Deliver reviewed draft,2026-07-01,2026-10-15,
+P08,E08,New engineer onboarding,Contributor,Deliver reviewed draft,2026-07-01,2026-09-20,

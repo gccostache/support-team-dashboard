@@ -1,0 +1,27 @@
+AI COACHING-NOTE UPDATE
+
+1. Stop Streamlit with Ctrl+C. Back up your project folder.
+2. Extract this ZIP. Open the folder containing app.py.
+3. Copy all its contents into C:\Users\George\support-team-dashboard.
+   Replace files when prompted. Keep your existing data, .venv, and coaching.db.
+   This update contains no database or CSV replacements.
+4. In PowerShell:
+
+cd C:\Users\George\support-team-dashboard
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m streamlit run app.py
+
+5. Open Coaching actions. Enter this Case-review note:
+
+The engineer resolved the issue, but customer updates lacked clear next steps and an agreed follow-up time.
+
+Click Analyze note. The first use may download the model.
+Inspect the suggestion, confirm or change the theme, and click Use reviewed theme in action.
+Select an owner and write the agreed action below before saving.
+Raw notes and AI scores are not saved to the database.
+
+To run automated checks, stop Streamlit then run:
+.\.venv\Scripts\python.exe -m unittest discover -s tests -v
+
+28 checks passed in preparation. AI interface checks mock scores;
+verify the actual model suggestion locally and report its theme and score.

@@ -1,0 +1,39 @@
+SUPPORT TEAM DASHBOARD — WINDOWS QUICK START
+
+1. Extract the ZIP. Move the support-team-dashboard folder to:
+   C:\Users\George\support-team-dashboard
+
+   Check that this folder contains app.py, dashboard.py, coaching.py,
+   requirements.txt, and a data folder. Avoid an extra nested folder.
+
+2. Open PowerShell. Copy only the command lines below:
+
+cd C:\Users\George\support-team-dashboard
+py -3.13 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m streamlit run app.py
+
+3. Open the local URL printed by Streamlit. Keep PowerShell open.
+   Stop the app with Ctrl+C when finished.
+
+4. Explore the three tabs: Team overview, Individual profile, Coaching actions.
+   Filter by specialty or member. Change the reporting month.
+   Save one fictional coaching action; mark it completed and reopen it.
+
+Expected full-team September figures:
+CSAT 82.1% from 156 responses; training completion 87.5%; open cases 151.
+
+5. To run the automated checks, stop Streamlit and run:
+
+.\.venv\Scripts\python.exe -m unittest discover -s tests -v
+
+To restart later, skip environment creation and installation:
+
+cd C:\Users\George\support-team-dashboard
+.\.venv\Scripts\python.exe -m streamlit run app.py
+
+The dashboard calculations use explicit rules. Optional AI coaching-note
+analysis suggests a theme for manager review. It uses fictional CSV records and saves coaching actions locally
+in coaching.db. Do not upload that database or .venv to GitHub.
+
+README.md explains definitions, tests, limitations, and GitHub publishing.

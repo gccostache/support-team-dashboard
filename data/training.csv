@@ -1,0 +1,25 @@
+training_id,engineer_id,course,assigned_date,due_date,completed_date
+T011,E01,Secure troubleshooting,2026-04-01,2026-05-15,2026-05-10
+T012,E01,Customer communication,2026-06-01,2026-07-31,2026-07-20
+T013,E01,API diagnostics,2026-08-01,2026-09-15,2026-09-10
+T021,E02,Secure troubleshooting,2026-04-01,2026-05-15,2026-05-10
+T022,E02,Customer communication,2026-06-01,2026-07-31,2026-07-20
+T023,E02,API diagnostics,2026-08-01,2026-09-15,
+T031,E03,Secure troubleshooting,2026-04-01,2026-05-15,2026-05-10
+T032,E03,Customer communication,2026-06-01,2026-07-31,2026-07-20
+T033,E03,API diagnostics,2026-08-01,2026-09-15,2026-09-20
+T041,E04,Secure troubleshooting,2026-04-01,2026-05-15,2026-05-10
+T042,E04,Customer communication,2026-06-01,2026-07-31,
+T043,E04,API diagnostics,2026-08-01,2026-09-15,2026-09-10
+T051,E05,Secure troubleshooting,2026-04-01,2026-05-15,2026-05-10
+T052,E05,Customer communication,2026-06-01,2026-07-31,2026-07-20
+T053,E05,API diagnostics,2026-08-01,2026-09-15,2026-09-10
+T061,E06,Secure troubleshooting,2026-04-01,2026-05-15,2026-05-10
+T062,E06,Customer communication,2026-06-01,2026-07-31,2026-07-20
+T063,E06,API diagnostics,2026-08-01,2026-09-15,2026-09-10
+T071,E07,Secure troubleshooting,2026-04-01,2026-05-15,2026-05-10
+T072,E07,Customer communication,2026-06-01,2026-07-31,2026-07-20
+T073,E07,API diagnostics,2026-08-01,2026-09-15,
+T081,E08,Secure troubleshooting,2026-04-01,2026-05-15,2026-05-10
+T082,E08,Customer communication,2026-06-01,2026-07-31,2026-07-20
+T083,E08,API diagnostics,2026-08-01,2026-09-15,2026-09-10
