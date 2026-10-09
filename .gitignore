@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.py[cod]
+coaching.db
+coaching.db-*
+.streamlit/secrets.toml
+.env
